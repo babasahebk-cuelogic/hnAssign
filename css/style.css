@@ -34,7 +34,7 @@ opacity: 1; }
 .videoWrapMain{position: relative;}
 .videoWrap{border:1px solid #e0e0e0; float: left; margin:5px;}
 .videoWrap .videoImgWrap{padding: 10px; border-bottom: 1px solid #e0e0e0;position: relative; }
-.videoWrap .videoImgWrap .vidTime{background: rgba(0,0,0,0.5); padding: 5px; color:#fff; position: absolute; bottom: 0px;right: 0px; font-size: 11px;}
+.videoWrap .videoImgWrap .vidTime, .vidTime{background: rgba(0,0,0,0.5); padding: 5px; color:#fff; position: absolute; bottom: 0px;right: 0px; font-size: 11px;}
 .videoWrap:nth-child(8n+2) .videoImgWrap .vidTime, .videoWrap:nth-child(8n+4) .videoImgWrap .vidTime{bottom: 0px;}
 .videoWrap .videoImgWrap .playbtn{display: none; position: absolute; color:#fff; font-size:50px; top:0; left: 0; right:0; bottom: 0; margin: auto; text-align: center;width:50px; height:50px; }
 .videoWrap .videoDesWrap{padding: 10px;}
@@ -67,6 +67,32 @@ opacity: 1; }
     display: block;
 }
 .thumbImg{position: relative;}
+
+
+
+/* Video Page Css */
+.tabsLink{margin:15px 0;}
+.tabsLink li a{font-size: 14px;color: #fa5720; font-weight: 600; display: inline-block; border-bottom: 3px solid #fff; padding-bottom: 5px;}
+.tabsLink li a.active{border-color: #FA5720;}
+.tabsLink li a span{display: inline-block; margin-right: 5px; }
+.tabsLink li a span .fa-minus-square, .tabsLink li a.active span .fa-plus-square, .recipeInfo, .aboutInfo, .transcriptInfo{display: none;}
+.tabsLink li a span .fa-plus-square, .tabsLink li a.active span .fa-minus-square, .recipeInfo.active, .aboutInfo.active, .transcriptInfo.active{display: block;}
+
+
+/* Custom Scroll Area */
+.media .media-body h4.media-heading a{font-weight: 700;color: #000;white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;font-size:14px; display: block;} 
+.media{margin-bottom: 10px;}
+.relatedListing{background: #f1f1f1;}
+.content{margin-bottom: 25px;}
+.media .media-left img{max-width: 110px;}
+.relatedListing h2 {font-family: OpenSans;font-weight: 700;color: #3d3d3d;font-size: 1.1em;margin: 15px 0; border-bottom: 1px solid #ececec; padding: 0 0 10px;}
+.author{color: #7a8080; font-size:13px;}
+
+
+
 
 
 @media (max-width: 1199px) and (min-width: 992px){
