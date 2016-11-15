@@ -107,7 +107,7 @@ opacity: 1; }
     float: left;
     word-wrap: normal;
     overflow: hidden;
-    width: 50%;
+    width: 45%;
     margin-left: 4%;
 }
 .reccomended-widget-text p {
@@ -132,7 +132,7 @@ opacity: 1; }
 
 
 
-@media (max-width: 930px) and (min-width: 569px){
+@media (max-width: 767px) and (min-width: 569px){
 .reccomended-widget-video {
     border: 0 solid green;
     float: left;
